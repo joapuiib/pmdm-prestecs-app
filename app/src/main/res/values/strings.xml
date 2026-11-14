@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Textos reutilitzats de l'aplicació de préstecs -->
+    <string name="new_loan">Nou préstec</string>
+    <string name="new_return">Nova devolució</string>
+    <string name="action_back">Tornar</string>
+    <string name="action_more">Més opcions</string>
+    <string name="estat_prestat">Prestat</string>
+    <string name="estat_no_retornat">No retornat</string>
+    <string name="estat_retornat">Retornat</string>
+    <string name="loans_lent_at">Préstec: %1$s</string>
+    <string name="loans_returned_at">Devolució: %1$s</string>
+    <string name="loans_history">Històric</string>
+    <string name="loans_search_hint">Cerca portàtil, estudiant o professor</string>
+    <string name="loans_search_clear">Esborra la cerca</string>
+    <string name="login_subtitle">Entra amb el teu usuari de Moodle.</string>
+    <string name="login_username">Usuari</string>
+    <string name="login_password">Contrasenya</string>
+    <string name="login_show_password">Mostra la contrasenya</string>
+    <string name="login_hide_password">Amaga la contrasenya</string>
+    <string name="login_submit">Entra</string>
+    <string name="login_error_missing_fields">Escriu l\'usuari i la contrasenya.</string>
+    <string name="action_log_out">Tanca la sessió</string>
+    <string name="loans_stat_active">Préstecs actius: %1$d</string>
+    <string name="loans_stat_overdue">No retornats: %1$d</string>
+    <string name="loans_no_aula">(sense aula)</string>
+    <string name="loans_none_active">No hi ha cap préstec actiu.</string>
+    <string name="loans_no_results">Cap resultat.</string>
+    <string name="loans_age_today">avui</string>
+    <string name="loans_student">Estudiant</string>
+    <string name="loans_professor">Professor</string>
+    <string name="action_cancel">Cancel·la</string>
+    <string name="action_confirm">Confirma</string>
+    <!-- Textos propis d'aquesta aplicació -->
+    <string name="app_name">Préstecs CIPFP Mislata</string>
+    <string name="splash_tagline">Préstecs de portàtils del centre</string>
+    <string name="placeholder_coming">Esta pantalla estarà disponible en la fase 2.</string>
+    <string name="button_skip">Salta</string>
+    <string name="button_next">Següent</string>
+    <string name="button_start">Comença</string>
+    <string name="onboarding_1_title">Benvinguda</string>
+    <string name="onboarding_1_text">Consulta els préstecs de portàtils oberts de cada aula d\'un colp d\'ull.</string>
+    <string name="onboarding_2_title">Vigila els no retornats</string>
+    <string name="onboarding_2_text">Els préstecs de dies anteriors apareixen en roig. Toca «No retornats» per a veure\'ls tots.</string>
+    <string name="onboarding_3_title">Entra amb Moodle</string>
+    <string name="onboarding_3_text">En el pas següent inicies la sessió amb el teu compte per a registrar els préstecs com a professor.</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_settings">Ajustos</string>
+    <string name="menu_about">Quant a</string>
+    <string name="detail_title">Detall del préstec</string>
+    <string name="detail_select">Selecciona un préstec per a vore\'n el detall</string>
+    <string name="detail_laptop">Portàtil</string>
+    <string name="detail_room">Aula</string>
+    <string name="detail_status">Estat</string>
+    <string name="detail_not_returned_yet">Encara no s\'ha retornat</string>
+    <string name="kind_fixed">Portàtil fix de l\'aula</string>
+    <string name="kind_cart">Del carro %1$s</string>
+    <string name="room_empty">Cap préstec en aquesta aula.</string>
+    <string name="room_image_description">Icona de l\'aula %1$s</string>
+    <string name="settings_title">Ajustos</string>
+    <string name="profile_title">Perfil</string>
+    <string name="profile_greeting">Hola, %1$s</string>
+    <string name="profile_avatar">Avatar de la persona usuària</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Segons el sistema</string>
+    <string name="theme_light">Clar</string>
+    <string name="theme_dark">Fosc</string>
+    <string name="language_title">Idioma</string>
+    <string name="language_open">Canvia l\'idioma de l\'aplicació</string>
+    <string name="about_open">Quant a</string>
+    <string name="about_title">Quant a</string>
+    <string name="about_author">Joan Puigcerver Ibáñez</string>
+    <string name="about_author_role">Autoria · DAM · IES Serpis</string>
+    <string name="about_photo">Foto de l\'autor (imatge provisional)</string>
+    <string name="about_version">Versió %1$s</string>
+    <string name="about_credits_title">Crèdits i llicències</string>
+    <string name="about_credits_text">Interfície amb Jetpack Compose i Material 3 (Apache 2.0). L\'aspecte i les icones parteixen de l\'aplicació de préstecs de portàtils de FP Mislata, de la mateixa autoria.</string>
+
+    <plurals name="loans_age_days">
+        <item quantity="one">fa %d dia</item>
+        <item quantity="other">fa %d dies</item>
+    </plurals>
+    <plurals name="loans_aula_active">
+        <item quantity="one">%d actiu</item>
+        <item quantity="other">%d actius</item>
+    </plurals>
+    <plurals name="loans_aula_overdue">
+        <item quantity="one">%d no retornat</item>
+        <item quantity="other">%d no retornats</item>
+    </plurals>
+    <plurals name="my_active_loans">
+        <item quantity="one">%d préstec actiu</item>
+        <item quantity="other">%d préstecs actius</item>
+    </plurals>
+</resources>

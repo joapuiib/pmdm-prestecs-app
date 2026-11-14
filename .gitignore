@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Configuració local (ruta de l'SDK)
+local.properties
+
+# Claus de signatura: mai al repositori
+*.jks
+*.keystore
+keystore.properties
